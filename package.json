@@ -1,0 +1,27 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "this is a library Management API backend For the Managemnet oof Users And Books",
+  "homepage": "https://github.com/rakusirvi/Library-Management-System#readme",
+  "bugs": {
+    "url": "https://github.com/rakusirvi/Library-Management-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakusirvi/Library-Management-System.git"
+  },
+  "license": "ISC",
+  "author": "Rakesh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
